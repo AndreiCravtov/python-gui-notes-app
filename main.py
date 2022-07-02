@@ -15,7 +15,7 @@ from app import *
 
 from tkinter import *
 
-class Root(Tk):
+class Main(Tk):
     def __init__(self):
         # Create window
         self.instantiate_window()
@@ -31,7 +31,7 @@ class Root(Tk):
         super().__init__()
 
         # Configure root window
-        self.title("Note taking app")
+        self.title("Notes")
         self.geometry('960x540')
         self.resizable(False, False)
 
@@ -84,4 +84,4 @@ class Root(Tk):
             raise Exception("Action from a non-existent scene detected\naction: {}\nscene: {}".format(action.action, action.scene))
 
 if __name__ == '__main__':
-    Root().mainloop()
+    Main().mainloop()
