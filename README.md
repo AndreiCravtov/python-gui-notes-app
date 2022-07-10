@@ -20,7 +20,7 @@ While learning the Tkinter GUI framework for Python, I have produced a note-taki
 
 ### How to run the project
 
-1. Make sure you have the Python interpreter installed
+1. Make sure you have the Python interpreter installed.
 2. Clone this repository.
 4. Run the `run` file.
 
